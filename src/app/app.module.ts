@@ -12,7 +12,6 @@ import { DefaultFontHeaderDirective } from './directives/defaultFontHeader.direc
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
-import { AuthModule } from './features/auth/auth.module';
 
 @NgModule({
   declarations: [
@@ -27,9 +26,9 @@ import { AuthModule } from './features/auth/auth.module';
     BrowserAnimationsModule,
     HttpClientModule,
     NgbModule,
+    AppRoutingModule,
     CoreModule,
     SharedModule,
-    AuthModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

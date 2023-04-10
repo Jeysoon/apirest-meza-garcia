@@ -9,9 +9,8 @@ import { AppRoutingModule } from '../app-routing.module';
     CommonModule,
     ReactiveFormsModule,
     MaterialModule,
-    AppRoutingModule
   ],
   declarations: [],
-  exports: [ReactiveFormsModule, MaterialModule,AppRoutingModule]
+  exports: [ReactiveFormsModule, MaterialModule]
 })
 export class SharedModule { }
